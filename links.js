@@ -26,6 +26,10 @@ const LINKS = [
   { title: "Sehati — Support", url: "https://sehati.gov.ma/support/index", tag: "maroc", group: "Officiel", desc: "Support numérique santé" },
   { title: "Carte sanitaire", url: "https://cartesanitaire.sante.gov.ma/", tag: "maroc", group: "Officiel", desc: "Offre de soins par région" },
   { title: "AMMPS", url: "https://www.ammps.gov.ma/", tag: "maroc", group: "Officiel", desc: "Agence Marocaine des Médicaments et Produits de Santé" },
+  { title: "AMMPS — Recherche de médicaments", url: "https://www.ammps.gov.ma/recherche-medicaments", tag: "maroc", group: "Officiel", desc: "Recherche dans la base des médicaments" },
+  { title: "AMMPS — Liste marocaine des médicaments", url: "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments", tag: "maroc", group: "Officiel", desc: "Liste marocaine des médicaments" },
+  { title: "AMMPS — Répertoire médicaments génériques", url: "https://www.ammps.gov.ma/repertoire-medicaments-generiques", tag: "maroc", group: "Officiel", desc: "Répertoire des génériques" },
+  { title: "AMMPS — Médicaments retirés", url: "https://www.ammps.gov.ma/basesdedonnes/medicaments-retires", tag: "maroc", group: "Officiel", desc: "Médicaments retirés du marché" },
   { title: "Cahiers des normes pédagogiques — Médecine", url: "https://www.enssup.gov.ma/en/publications/cahiers-des-normes-pedagogiques-nationales-en-medecine-pharmacie-et-medecine-dentaire-medecine", tag: "maroc", group: "Officiel", desc: "Normes de formation médicale" },
 
   // --- Maroc — Ordre & outils (issue #1) --------------------------------
@@ -73,16 +77,24 @@ const LINKS = [
   { title: "SFMU — Calculateurs", url: "https://www.sfmu.org/fr/vie-professionnelle/outils-professionnels/calculateurs/", tag: "france", group: "HAS & France", desc: "Outils de médecine d'urgence" },
   { title: "Dictionnaire Académie de médecine (officiel)", url: "https://www.academie-medecine.fr/dictionnaire/", tag: "france", group: "HAS & France", desc: "Dictionnaire médical — en maintenance" },
   { title: "Dictionnaire Académie de médecine (miroir)", url: "http://91.209.229.113/", tag: "france", group: "HAS & France", desc: "Miroir de secours — à remplacer dès que l'officiel revient" },
+  { title: "JNMG — Journées Nationales de Médecine Générale", url: "https://www.jnmg.org/", tag: "france", group: "HAS & France", desc: "Congrès annuel de médecine générale" },
 
-  // --- France — Vidéos & chaînes (issue #4) -----------------------------
+  // --- France — Vidéos & chaînes (issues #4, #6) -------------------------
   { title: "Conférence Cartesia", url: "https://www.youtube.com/@Conf%C3%A9renceCartesia/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Conférences vidéo (YouTube)" },
   { title: "Olivier Trost — Anatomie", url: "https://www.youtube.com/@oliviertrostanatomie-freea4376/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Cours d'anatomie (YouTube)" },
   { title: "Jean-Marie Le Minor — Anatomie", url: "https://www.youtube.com/@JeanMarieLEMINORAnatomie/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Cours d'anatomie (YouTube)" },
   { title: "Réussis Ton IFSI", url: "https://www.youtube.com/@reussistonifsi/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Formation infirmière (YouTube)" },
+  { title: "Urologie Fonctionnelle", url: "https://www.urologie-fonctionnelle.com/", tag: "france", group: "Vidéos & chaînes", desc: "Ressources pédagogiques d'urologie" },
+  { title: "Urologie Fonctionnelle — Anatomie", url: "https://www.youtube.com/@UrologiefonctionnelleAnatomie/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Playlists d'anatomie urologique (YouTube)" },
+  { title: "Stage en France — témoignage", url: "https://www.instagram.com/reels/DXFjJMAGaRY/", tag: "france", group: "Vidéos & chaînes", desc: "Témoignage sur un stage/externat en France (Instagram)" },
 
   // --- International ------------------------------------------------------
   { title: "MSF — Guides médicaux", url: "https://medicalguidelines.msf.org/fr", tag: "international", group: "International", desc: "Guides cliniques terrain (FR)" },
   { title: "MDCalc", url: "https://www.mdcalc.com/", tag: "international", group: "International", desc: "Calculateurs et scores cliniques" },
   { title: "BJSM Videos", url: "https://www.youtube.com/@BJSMVideos/playlists", tag: "international", group: "International", desc: "British Journal of Sports Medicine (YouTube)" },
   { title: "4ème année médecine — Tlemcen", url: "https://www.youtube.com/@4emeanneemedecinetlemcen175/playlists", tag: "international", group: "International", desc: "Cours vidéo, faculté de Tlemcen, Algérie (YouTube)" },
+  { title: "ClinXpert", url: "https://clinxpert.glide.page/dl/ClinXpert", tag: "international", group: "International", desc: "Application d'aide à la décision clinique" },
+  { title: "Kenhub", url: "https://www.kenhub.com/", tag: "international", group: "International", desc: "Cours et quiz d'anatomie" },
+  { title: "Osmosis", url: "https://www.osmosis.org/", tag: "international", group: "International", desc: "Vidéos et cours de médecine" },
+  { title: "AHA — Recommandations RCP / ECC", url: "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines", tag: "international", group: "International", desc: "American Heart Association — réanimation cardio-pulmonaire" },
 ];
