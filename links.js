@@ -49,6 +49,8 @@ const LINKS = [
   // --- France — HAS et sources françaises -------------------------------
   { title: "HAS — Portail", url: "https://www.has-sante.fr/", tag: "france", group: "HAS & France", desc: "Recommandations françaises" },
   { title: "HAS — EDN", url: "https://www.has-sante.fr/jcms/p_3076609/fr/edn", tag: "france", group: "HAS & France", desc: "Épreuves dématérialisées nationales" },
+  { title: "HAS — Méthodes d'élaboration des recommandations", url: "https://www.has-sante.fr/jcms/c_418716/fr/methodes-d-elaboration-des-recommandations-de-bonne-pratique", tag: "france", group: "HAS & France", desc: "Méthodologie des recommandations de bonne pratique" },
+  { title: "HAS — Actualisation des recommandations et parcours de soins", url: "https://www.has-sante.fr/jcms/p_3312383/fr/actualisation-des-recommandations-de-bonne-pratique-et-des-parcours-de-soins", tag: "france", group: "HAS & France", desc: "Suivi des mises à jour des recommandations et parcours de soins" },
   { title: "HAS — Outil préparation EDN", url: "https://www.has-sante.fr/jcms/c_646948/fr/outil-d-aide-a-la-preparation-des-epreuves-dematerialisees-nationales-edn-mode-d-emploi", tag: "france", group: "HAS & France", desc: "Aide à la préparation des examens" },
   { title: "Base de données publique des médicaments", url: "https://base-donnees-publique.medicaments.gouv.fr/", tag: "france", group: "HAS & France", desc: "AMM, notices, RCP" },
   { title: "Vidal", url: "https://www.vidal.fr/analyse-ordonnance.html", tag: "france", group: "HAS & France", desc: "Analyse d'ordonnance" },
