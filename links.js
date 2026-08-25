@@ -46,6 +46,14 @@ const LINKS = [
   { title: "MG Maroc TV", url: "https://www.youtube.com/@MGMaroctv", tag: "maroc", group: "Sociétés savantes", desc: "Formation vidéo en médecine générale (YouTube)" },
   { title: "Playlist formation MG Maroc", url: "https://www.youtube.com/playlist?list=PLUrO6bQPaskJ-dauAXd-Ugb4Zf9Gldg1L", tag: "maroc", group: "Sociétés savantes", desc: "Playlist pédagogique (YouTube)" },
 
+  // --- Maroc — Vidéos & ressources (issue #4) ---------------------------
+  { title: "ECG — Dossier partagé", url: "https://drive.google.com/drive/folders/1tTeafcyPkS3EJ7N0qVZQX2_YKkEpjfiu?usp=sharing", tag: "maroc", group: "Vidéos & ressources", desc: "Ressources ECG (Google Drive)" },
+  { title: "ECG — Playlist", url: "https://youtube.com/playlist?list=PLZ_Eh7sp7PakFKyzLvKnaB9inxhVvWAwX", tag: "maroc", group: "Vidéos & ressources", desc: "Playlist ECG (YouTube)" },
+  { title: "Pygmalion (Mouhaoui)", url: "https://www.youtube.com/@mouhaoui/playlists", tag: "maroc", group: "Vidéos & ressources", desc: "Formation résidanat/internat (YouTube)" },
+  { title: "Pygmalion — Groupe Facebook", url: "https://www.facebook.com/groups/1462140824060195", tag: "maroc", group: "Vidéos & ressources", desc: "Groupe d'entraide résidanat/internat" },
+  { title: "ValidaREMOS", url: "https://linktr.ee/validaremos", tag: "maroc", group: "Vidéos & ressources", desc: "Liens de préparation résidanat (Linktree)" },
+  { title: "The Collection 22", url: "https://linktr.ee/thecollection22", tag: "maroc", group: "Vidéos & ressources", desc: "Ressources de révision (Linktree)" },
+
   // --- France — HAS et sources françaises -------------------------------
   { title: "HAS — Portail", url: "https://www.has-sante.fr/", tag: "france", group: "HAS & France", desc: "Recommandations françaises" },
   { title: "HAS — EDN", url: "https://www.has-sante.fr/jcms/p_3076609/fr/edn", tag: "france", group: "HAS & France", desc: "Épreuves dématérialisées nationales" },
@@ -66,7 +74,15 @@ const LINKS = [
   { title: "Dictionnaire Académie de médecine (officiel)", url: "https://www.academie-medecine.fr/dictionnaire/", tag: "france", group: "HAS & France", desc: "Dictionnaire médical — en maintenance" },
   { title: "Dictionnaire Académie de médecine (miroir)", url: "http://91.209.229.113/", tag: "france", group: "HAS & France", desc: "Miroir de secours — à remplacer dès que l'officiel revient" },
 
+  // --- France — Vidéos & chaînes (issue #4) -----------------------------
+  { title: "Conférence Cartesia", url: "https://www.youtube.com/@Conf%C3%A9renceCartesia/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Conférences vidéo (YouTube)" },
+  { title: "Olivier Trost — Anatomie", url: "https://www.youtube.com/@oliviertrostanatomie-freea4376/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Cours d'anatomie (YouTube)" },
+  { title: "Jean-Marie Le Minor — Anatomie", url: "https://www.youtube.com/@JeanMarieLEMINORAnatomie/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Cours d'anatomie (YouTube)" },
+  { title: "Réussis Ton IFSI", url: "https://www.youtube.com/@reussistonifsi/playlists", tag: "france", group: "Vidéos & chaînes", desc: "Formation infirmière (YouTube)" },
+
   // --- International ------------------------------------------------------
   { title: "MSF — Guides médicaux", url: "https://medicalguidelines.msf.org/fr", tag: "international", group: "International", desc: "Guides cliniques terrain (FR)" },
   { title: "MDCalc", url: "https://www.mdcalc.com/", tag: "international", group: "International", desc: "Calculateurs et scores cliniques" },
+  { title: "BJSM Videos", url: "https://www.youtube.com/@BJSMVideos/playlists", tag: "international", group: "International", desc: "British Journal of Sports Medicine (YouTube)" },
+  { title: "4ème année médecine — Tlemcen", url: "https://www.youtube.com/@4emeanneemedecinetlemcen175/playlists", tag: "international", group: "International", desc: "Cours vidéo, faculté de Tlemcen, Algérie (YouTube)" },
 ];
