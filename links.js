@@ -31,12 +31,14 @@ const LINKS = [
   { title: "AMMPS — Répertoire médicaments génériques", url: "https://www.ammps.gov.ma/repertoire-medicaments-generiques", tag: "maroc", group: "Officiel", desc: "Répertoire des génériques" },
   { title: "AMMPS — Médicaments retirés", url: "https://www.ammps.gov.ma/basesdedonnes/medicaments-retires", tag: "maroc", group: "Officiel", desc: "Médicaments retirés du marché" },
   { title: "Cahiers des normes pédagogiques — Médecine", url: "https://www.enssup.gov.ma/en/publications/cahiers-des-normes-pedagogiques-nationales-en-medecine-pharmacie-et-medecine-dentaire-medecine", tag: "maroc", group: "Officiel", desc: "Normes de formation médicale" },
+  { title: "MSPS — Linktree", url: "https://linktr.ee/msps_gov_ma", tag: "maroc", group: "Officiel", desc: "Liens officiels du ministère (Linktree)" },
 
   // --- Maroc — Ordre & outils (issue #1) --------------------------------
   { title: "Sahha.ma", url: "https://sahha.ma/", tag: "maroc", group: "Ordre & outils", desc: "Plateforme santé grand public" },
   { title: "Sehati — Outils", url: "https://sehati.gov.ma/outils", tag: "maroc", group: "Ordre & outils", desc: "Outils numériques santé" },
   { title: "CNOM — Conseil National de l'Ordre des Médecins", url: "https://cnom.bynsol.com/", tag: "maroc", group: "Ordre & outils", desc: "Portail de l'Ordre des médecins" },
   { title: "CNOM Maroc — Textes juridiques", url: "https://www.cnom-maroc.com/textes-juridiques/", tag: "maroc", group: "Ordre & outils", desc: "Textes juridiques et réglementaires" },
+  { title: "DrJB.net", url: "https://www.drjb.net/", tag: "maroc", group: "Ordre & outils", desc: "Ressources médicales" },
 
   // --- Maroc — Sociétés savantes / professionnelles ---------------------
   { title: "SOMIPEV", url: "https://somipev.ma/", tag: "maroc", group: "Sociétés savantes", desc: "Société marocaine de pédiatrie / vaccinologie" },
@@ -97,4 +99,16 @@ const LINKS = [
   { title: "Kenhub", url: "https://www.kenhub.com/", tag: "international", group: "International", desc: "Cours et quiz d'anatomie" },
   { title: "Osmosis", url: "https://www.osmosis.org/", tag: "international", group: "International", desc: "Vidéos et cours de médecine" },
   { title: "AHA — Recommandations RCP / ECC", url: "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines", tag: "international", group: "International", desc: "American Heart Association — réanimation cardio-pulmonaire" },
+  { title: "AM Fouda", url: "https://www.youtube.com/@AM_Fouda", tag: "international", group: "International", desc: "Chaîne médicale (Égypte)" },
+  { title: "RTS — Médecine de guerre", url: "https://www.rts.ch/play/tv/36-9/video/medecine-de-guerre?urn=urn:rts:video:14748712", tag: "international", group: "International", desc: "Reportage vidéo, Radio Télévision Suisse" },
+  { title: "Elsevier Researcher Academy", url: "https://researcheracademy.elsevier.com/", tag: "international", group: "International", desc: "Cours gratuits sur la recherche et la publication" },
+  { title: "NIDA — Good Clinical Practice", url: "https://gcp.nidatraining.org/", tag: "international", group: "International", desc: "Formation aux bonnes pratiques cliniques (NIH/NIDA)" },
+  { title: "Passmedicine — Preclinical", url: "https://www.passmedicine.com/preclinical/index.php", tag: "international", group: "International", desc: "QCM de préparation préclinique" },
+  { title: "Geeky Medics", url: "https://geekymedics.com/", tag: "international", group: "International", desc: "Compétences cliniques et OSCE" },
+  { title: "Oxford Medical Videos", url: "https://www.youtube.com/@OxfordMedicalVideos/playlists", tag: "international", group: "International", desc: "Playlists de médecine clinique (YouTube)" },
+
+  // --- International — Recherche & bioinformatique (issue #7) ------------
+  { title: "EBI — Formation AlphaFold", url: "https://www.ebi.ac.uk/training/online/courses/alphafold/", tag: "international", group: "Recherche & bioinformatique", desc: "Cours en ligne sur AlphaFold (EMBL-EBI)" },
+  { title: "NCBI — Genome Data Viewer", url: "https://www.ncbi.nlm.nih.gov/gdv", tag: "international", group: "Recherche & bioinformatique", desc: "Visualisation de génomes" },
+  { title: "AlphaFold Protein Structure Database", url: "https://alphafold.ebi.ac.uk/", tag: "international", group: "Recherche & bioinformatique", desc: "Prédictions de structures de protéines" },
 ];
